@@ -198,7 +198,7 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 #text_size button {padding:0 10px;height:30px;border:1px solid #cfded8;border-bottom:0;background:#000;color:#fff;cursor:pointer}
 
 /* 하단 레이아웃 */
-#ft {background:#212020;margin:0 auto;text-align:center}
+#ft {background:#2c2c2c;margin:0 auto;text-align:center}
 #ft h1 {position:absolute;font-size:0;line-height:0;overflow:hidden}
 #ft_wr {max-width:1240px;margin:0;padding:40px 0;position:relative;display:inline-block;text-align:left}
 #ft_wr:after {display:block;visibility:hidden;clear:both;content:""}
