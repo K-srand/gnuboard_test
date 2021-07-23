@@ -174,10 +174,10 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 #container_title span {margin:0 auto 10px;display:block;line-height:30px}
 
 .lt_wr {width:32%}
-.lt_wr:nth-child(3n+1) {clear:both}
+.lt_wr:nth-child(2n) {clear:both}
 .latest_wr {margin-bottom:20px}
 .latest_wr:after {display:block;visibility:hidden;clear:both;content:""}
-.latest_top_wr {margin:0 -10px 20px}
+.latest_top_wr {margin:5 -10px 20px}
 .latest_top_wr:after {display:block;visibility:hidden;clear:both;content:""}
 
 /* 하단 레이아웃 */
