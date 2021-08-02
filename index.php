@@ -19,6 +19,8 @@ include_once(G5_PATH.'/head.php');
 
 <h2 class="sound_only">최신글</h2>
 
+<img src='수족관.jpg'/>
+
 <div class="latest_top_wr">
     <?php
     // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
@@ -62,5 +64,6 @@ include_once(G5_PATH.'/head.php');
     ?>
     <!-- } 최신글 끝 -->
 </div>
+
 <?php
 include_once(G5_PATH.'/tail.php');

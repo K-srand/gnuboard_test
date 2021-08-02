@@ -2,7 +2,7 @@
 
 /* 초기화 */
 html {overflow-y:scroll}
-body {margin:0;padding:0;font-size:0.75em;font-family:'Malgun Gothic', dotum, sans-serif}
+body {margin:0;padding:0;font-size:0.75em;font-family:'Malgun Gothic', dotum, sans-serif;background: rgb(255, 255, 255);}
 html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
 h1, h2, h3, h4, h5, h6 {font-size:1em;font-family:'Malgun Gothic', dotum, sans-serif}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
@@ -64,7 +64,7 @@ border:1px solid #558ab7 !important;
 .hd_pops_footer .hd_pops_close {background:#393939;position:absolute;top:0;right:0}
 
 /* 상단 레이아웃 */
-#hd {background:#000000}
+#hd {background:#ffffff}
 #hd_h1 {position:absolute;font-size:0;line-height:0;overflow:hidden}
 
 #hd_wrapper {position:relative;margin:0 auto}
@@ -73,11 +73,11 @@ border:1px solid #558ab7 !important;
 #logo {float:left;padding:30px 0 0}
 .hd_sch_wr {float:left;padding:30px 0;width:445px;margin-left:65px}
 #hd_sch h3 {position:absolute;font-size:0;line-height:0;overflow:hidden}
-#hd_sch {border-radius:30px;overflow:hidden}
-#hd_sch #sch_str {float:left;width:385px;height:45px;padding-left:15px;border-radius:30px 0 0 30px;background:#2c2c2c;border:0;border-right:0;font-size:1.2em;color:#fff}
-#hd_sch #sch_submit {float:left;width:60px;height:45px;border:0;background:#2c2c2c;color:#fff;border-radius:0 30px 30px 0;cursor:pointer;font-size:16px}
+#hd_sch {position:relative;top:30px;left:50px;border-radius:30px;overflow:hidden}
+#hd_sch #sch_str {float:left;width:385px;height:45px;padding-left:15px;border-radius:30px 0 0 30px;background:rgb(192, 192, 192);border:0;border-right:0;font-size:1.2em;color:#fff}
+#hd_sch #sch_submit {float:left;width:60px;height:45px;border:0;background:#014069;color:#fff;border-radius:0 30px 30px 0;cursor:pointer;font-size:16px}
 
-#tnb {border-bottom:1px solid #ffffff;margin:0 auto}
+#tnb {border-bottom:1px solid #383838;margin:0 auto}
 #tnb:after {display:block;visibility:hidden;clear:both;content:""}
 #tnb .inner {margin:0 auto}
 
@@ -86,7 +86,7 @@ border:1px solid #558ab7 !important;
 #hd_define li {float:left;font-size:1.083em;line-height:14px;border-right:1px solid #4a4a4a;position:relative;text-align:center;margin:15px 10px 15px 0;padding-right:10px}
 #hd_define li:last-child {padding-right:0;margin-right:0;border-right:0}
 #hd_define li a {display:inline-block;color:#919191}
-#hd_define li.active a {color:#fff}
+#hd_define li.active a {color:#919191}
 
 #hd_qnb {float:right;text-align:right}
 #hd_qnb:after {display:block;visibility:hidden;clear:both;content:""}
@@ -104,7 +104,7 @@ border:1px solid #558ab7 !important;
 
 #hd_menu {position:relative;background:#000;width:1200px;margin:0 auto}
 #hd_menu:after {display:block;visibility:hidden;clear:both;content:""}
-#hd_menu button#menu_open {float:left;width:265px;height:50px;border:0;background:#3a8afd;text-align:left;color:#fff;padding:0 20px;font-weight:bold;font-size:1.167em}
+#hd_menu button#menu_open {float:left;width:265px;height:50px;border:0;background:#014069;text-align:left;color:#fff;padding:0 20px;font-weight:bold;font-size:1.167em}
 .hd_menu {float:left;display:inline-block;width:935px;font-size:1.083em}
 .hd_menu:after {display:block;visibility:hidden;clear:both;content:""}
 .hd_menu li {float:left;width:20%;padding:12px 0;line-height:26px;text-align:center}
@@ -198,9 +198,9 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 #text_size button {padding:0 10px;height:30px;border:1px solid #cfded8;border-bottom:0;background:#000;color:#fff;cursor:pointer}
 
 /* 하단 레이아웃 */
-#ft {background:#2c2c2c;margin:0 auto;text-align:center}
+#ft {background:#014069;margin:0 auto;text-align:center}
 #ft h1 {position:absolute;font-size:0;line-height:0;overflow:hidden}
-#ft_wr {max-width:1240px;margin:0;padding:40px 0;position:relative;display:inline-block;text-align:left}
+#ft_wr {max-width:1240px;margin:0;padding:20px 0;position:relative;display:inline-block;text-align:left}
 #ft_wr:after {display:block;visibility:hidden;clear:both;content:""}
 #ft_wr .ft_cnt {width:25%;float:left;padding:0 20px}
 
@@ -209,7 +209,7 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 #ft_company h2 {font-size:1.2em;margin-bottom:20px}
 #ft_company {font-weight:normal;color:#e3e3e3;line-height:2em}
 #ft_catch {margin:20px 0 10px}
-#ft_copy {text-align:center;width:1200px;margin:0 auto;padding:20px 0;color:#5b5b5b;font-size:0.92em;border-top:1px solid #383838}
+#ft_copy {text-align:center;width:1200px;margin:0 auto;padding:20px 0;color:#ffffff;font-size:0.92em;border-top:1px solid #383838}
 #top_btn {position:absolute;bottom:0;left:0;border:0;border-top:1px solid #e5e7ea;margin-top:-25px;width:50px;height:50px;background:none;font-size:20px;color:#dedede}
 #top_btn:hover {border-color:#3059c7;background:#3059c7;color:#fff}
 
